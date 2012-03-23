@@ -1,0 +1,31 @@
+{
+  "name": "packageless",
+  "id": "packageless",
+  "version": "0.0.1",
+  "description": "Proof of packageless concept.",
+  "keywords": [ "packageless" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/packageless",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/packageless.git",
+    "web": "https://github.com/Gozala/packageless"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/packageless/issues/"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0",
+    "swank-js": ">=0.0.1"
+  },
+  "scripts": {
+    "test": "node tests/test-all.js",
+    "repl": "node node_modules/repl-utils"
+    "swank": "node node_modules/swank-js"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
