@@ -1,0 +1,3 @@
+import './foo/bar.js' as bar; // -> https://github.com/Gozala/packageless/blob/master/examples/es.next/foo/bar.js
+
+// ...
